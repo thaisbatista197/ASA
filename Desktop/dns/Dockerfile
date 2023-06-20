@@ -1,8 +1,10 @@
 FROM ubuntu:latest
 
-RUN apt-get update
+RUN apt update -y
 
-RUN apt-get install bind9 -y
+RUN apt upgrade -y
+ 
+RUN install bind9 bind9-utils dnsutils nano -y
 
 RUN apt-get install dnsutils -y
 

@@ -12,6 +12,6 @@ $TTL	604800
 @	IN	NS	ns1.pb.asa.br.
 
 
-ns1		IN	A	10.25.1.123
-mail	IN	A	10.25.1.123
-www		IN	CNAME	ns1
+ns1			A	10.25.1.123
+mail		A	10.25.1.123
+www			CNAME	ns1
